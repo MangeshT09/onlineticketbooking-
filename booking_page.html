@@ -1,0 +1,104 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        
+        .loginpage1{
+            /* border: 2px solid ; */
+            width: 800px;
+            height: 510px;
+            text-align: center;
+            margin-left: 200px;
+            margin-top: 50px;
+            box-shadow: 0 0 30px 0px;
+            border-radius: 20px;
+            background-color: rgb(242, 248, 248);
+            
+          
+        }
+        #as{
+            height: 30px;
+            width: 300px;
+            border: 1px solid rgb(14, 13, 13);
+            text-align: center;
+            padding-left: 50px;
+            margin: 10px;
+            box-shadow: 0px 0px 5px 0px;
+            /* border-radius: 5px; */
+        }
+        #as:hover{
+            /* border: 2px solid rgb(20, 21, 20); */
+            height: 35px;
+            width: 310px;
+            box-shadow: 0px 0px 10px 0px;
+
+        }
+        #bookpage{
+            color: chocolate;
+            text-align: center;
+        }
+        #ass{
+            border:1px solid black;
+            height: 30px;
+            width: 150px ;
+            border-radius: 7px;
+            box-shadow: 10px 0px 15px -7px;
+            margin-left: 20px;
+            background-color: burlywood;
+        }
+
+        #ass:hover{
+            border: 1px solid black;
+            height: 35px;
+            width: 160px;
+            box-shadow: 0px 0px 10px 0px;
+            background-color: grey;
+            color:white;
+
+        }
+        #line{
+            border: 1px solid black;
+            height: 0px;
+            width: 100%;
+        }
+        #heading{
+            text-align: left;
+            padding-left: 35px;
+            margin-bottom: 5px;
+        }
+        .row{
+
+        }
+    </style>
+</head>
+<body background="https://wallpaperaccess.com/full/407997.jpg">
+  <div class="loginpage">
+      <form novalidate > 
+          <div class="loginpage1">
+            <h1 id="bookpage">Booking Now :</h1>
+
+            <div id="line"></div>
+         <h3 id="heading">   Personal Information :  </h3>
+
+         
+             <input type="text" placeholder="Name" id="as">
+             <input type="text" placeholder="Address" id="as"> <br>
+          
+            <input type="tel" placeholder="Phone no" id="as" minlength="10"> 
+            <input type="date" id="as"> <br>
+            <input type="email" placeholder="Email" id="as"> 
+            <input type="password" placeholder="Password" id="as"> <br> <br>
+            <div id="line"></div>
+          <h3 id="heading">  Booking Information : </h3> <br>
+            <input type="text" placeholder="source" id="as"> 
+            <input type="text" placeholder="Destination" id="as"> <br>
+            <input type="date" placeholder="Booking Date" id="as"> 
+            <input type="number" placeholder="number of person" minlength="3" id="as"> <br> <br>
+            <button id="ass">Book</button>
+            <button id="ass">clear</button>
+        </div>
+
+    </form>
+  </div>    
+</body>
+</html>
